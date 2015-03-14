@@ -10,5 +10,5 @@ db:destroy(Db)             %  Удаляет БД (возвращает атом
 db:write(Key, Element, Db) %  Создает или обновляет запись {Key, Value} в Db.
 db:delete(Key, Db)         %  Удаляет запись с ключом Key из Db.
 db:read(Key, Db)           %  Возвращает значение Element для ключа Key из Db.
-db:match(Element, Db)      %  Возвращает список ключей по 
+db:match(Element, Db)      %  Возвращает список ключей по значению
 ```
